@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 1.1rem;
+  }
+
+  &__titles {
+    color: #284b63;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+
+    margin: 1.5rem 1.1rem 1.8rem 1.1rem;
+  }
+
+  &__présentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1.2rem;
+  }
+
+  &__événements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 70%;
+      height: 70%;
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  &__campus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 1.1rem;
+    }
+  }
+}

@@ -8,13 +8,21 @@ import "./styles.scss";
 
 const Nav = () => {
   return (
-    <div className="nav">
+    <nav className="nav">
       <h1 className="nav__logo">Défie Jeune</h1>
 
       <div className="nav__burger">
         <MenuIcon />
       </div>
-    </div>
+
+      <div className="nav__list">
+        <ul>
+          <li>Présentation</li>
+          <li>Animation</li>
+          <li>Lieu</li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
 
-  background-color: #02040f;
-  color: #e5dada;
+  background-color: #284b63;
+  color: #eef0eb;
 
   &__logo {
     margin-left: 5px;
@@ -16,5 +16,34 @@
     margin-right: 5px;
 
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    &__burger {
+      display: none;
+    }
+
+    &__logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 1.2rem;
+    }
+
+    &__list ul {
+      font-size: 1.2rem;
+
+      list-style: none;
+      text-decoration: none;
+
+      display: flex;
+      gap: 1.2rem;
+
+      margin: 1.1rem;
+
+      cursor: pointer;
+    }
   }
 }
