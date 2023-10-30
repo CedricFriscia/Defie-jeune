@@ -11,7 +11,7 @@ import "./styles.scss";
 const Nav = () => {
   return (
     <nav className="nav">
-      <h1 className="nav__logo">Défie Jeune</h1>
+      <h1 className="nav__logo">Défie Jeune - Nice</h1>
 
       <div className="nav__burger">
         <MenuIcon />
