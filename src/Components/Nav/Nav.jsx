@@ -1,5 +1,6 @@
 // Import React
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Import MUI
 import MenuIcon from "@mui/icons-material/Menu";
@@ -17,11 +18,12 @@ const Nav = () => {
       </div>
 
       <div className="nav__list">
-        <ul>
-          <li>Présentation</li>
-          <li>Animation</li>
-          <li>Lieu</li>
-        </ul>
+        <Link className="nav__link" to={"/"}>
+          Présentation
+        </Link>
+        <Link className="nav__link" to={"/jeune"}>
+          Les jeunes
+        </Link>
       </div>
     </nav>
   );

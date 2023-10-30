@@ -2,11 +2,13 @@
   display: flex;
   justify-content: space-between;
 
+  width: 100vw;
+
   background-color: #284b63;
   color: #eef0eb;
 
   &__logo {
-    margin-left: 5px;
+    margin-left: 1.1rem;
   }
 
   &__burger {
@@ -19,7 +21,7 @@
     cursor: pointer;
   }
 
-  &__list ul {
+  &__list {
     display: none;
   }
 }
@@ -37,18 +39,24 @@
       margin-left: 1.2rem;
     }
 
-    &__list ul {
+    &__list {
       font-size: 1.2rem;
 
-      list-style: none;
-      text-decoration: none;
-
       display: flex;
-      gap: 1.2rem;
+      gap: 1.3rem;
 
-      margin: 1.1rem;
+      margin: 1.3rem;
 
       cursor: pointer;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: #eef0eb;
+    }
+
+    &__link:hover {
+      color: #929292;
     }
   }
 }

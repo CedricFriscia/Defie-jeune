@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../../Components/Nav/Nav";
 
 // Import CSS
 import "./styles.scss";
@@ -6,6 +7,7 @@ import "./styles.scss";
 const Landing = () => {
   return (
     <div className="landing">
+      <Nav />
       <section className="landing__présentation">
         {" "}
         <h2 className="landing__titles">Des entretiens inversé !</h2>
