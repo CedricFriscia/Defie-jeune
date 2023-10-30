@@ -1,7 +1,19 @@
-function App() {
-  const [count, setCount] = useState(0);
+// Import Components
+import Nav from "./Components/Nav/Nav";
 
-  return <div className="App"></div>;
+// Import Pages
+import Landing from "./Pages/Landing/Landing";
+
+// Import CSS
+import "./css/reset.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Nav />
+      <Landing />
+    </div>
+  );
 }
 
 export default App;
