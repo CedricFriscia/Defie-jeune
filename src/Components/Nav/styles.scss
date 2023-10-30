@@ -10,12 +10,17 @@
   }
 
   &__burger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    margin: 5px;
 
     cursor: pointer;
+  }
+
+  &__list ul {
+    display: none;
   }
 }
 
