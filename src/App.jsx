@@ -12,12 +12,12 @@ import Jeune from "./Pages/Jeune/Jeune";
 import "./css/reset.css";
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Landing />}></Route>
-      <Route path="/jeune" element={<Jeune />}></Route>
-    </Routes>
-  );
+   return (
+      <Routes>
+         <Route path='/' element={<Landing />}></Route>
+         <Route path='/candidats' element={<Jeune />}></Route>
+      </Routes>
+   );
 }
 
 export default App;

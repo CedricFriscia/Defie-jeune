@@ -1,8 +1,13 @@
-# React + Vite
+// A FAIRE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-  Form création candidat :
 
-Currently, two official plugins are available:
+   -  requete post front
+   -  button créer candidat
+   -  modale form create candidat
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  penser a faire un css plus develpper
+
+-  Bar de recherche :
+   -  centrer la bar
+   -  css la bar
