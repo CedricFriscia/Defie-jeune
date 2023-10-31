@@ -7,7 +7,3 @@
    -  modale form create candidat
 
 -  penser a faire un css plus develpper
-
--  Bar de recherche :
-   -  centrer la bar
-   -  css la bar
