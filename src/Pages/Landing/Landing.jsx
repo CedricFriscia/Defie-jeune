@@ -18,7 +18,7 @@ const Landing = () => {
                pertinentes et approfondies aux représentants de l'entreprise.
             </p>
             <img
-               src='public/undraw_meeting_re_i53h.svg'
+               src='src/assets/images/undraw_meeting_re_i53h.svg'
                alt='ilustation meeting'
             />
          </section>
@@ -29,7 +29,7 @@ const Landing = () => {
                recruter.
             </h2>
             <img
-               src='public/undraw_interview_re_e5jn.svg'
+               src='src/assets/images/undraw_interview_re_e5jn.svg'
                alt='Campus sud des métier'
             />
          </section>
