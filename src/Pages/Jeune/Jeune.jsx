@@ -3,6 +3,7 @@ import api from "../../api/api";
 import Card from "../../Components/Card/Card";
 import Nav from "../../Components/Nav/Nav";
 import "./styles.scss";
+import { Link } from "react-router-dom";
 
 const Jeune = () => {
    const [candidats, setCandidats] = useState([]);
@@ -49,6 +50,9 @@ const Jeune = () => {
                </svg>
             </div>
          </section>
+         <Link className='jeune__button' to={"/candidat/create"}>
+            Mon profil
+         </Link>
 
          <div className='card__container'>
             {candidats

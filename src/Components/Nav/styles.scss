@@ -1,62 +1,69 @@
 .nav {
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 
-  width: 100vw;
+   width: 100vw;
 
-  background-color: #284b63;
-  color: #eef0eb;
+   background-color: #284b63;
+   color: #eef0eb;
 
-  &__logo {
-    margin-left: 1.1rem;
-  }
+   &__logo {
+      margin-left: 1.1rem;
+   }
 
-  &__burger {
-    position: absolute;
-    right: 0;
-    top: 0;
+   &__burger {
+      position: absolute;
+      right: 0;
+      top: 0;
 
-    margin: 5px;
+      margin: 5px;
 
-    cursor: pointer;
-  }
+      cursor: pointer;
+   }
 
-  &__list {
-    display: none;
-  }
+   &__list {
+      display: none;
+   }
+
+   &__link--burger {
+      text-decoration: none;
+      list-style: none;
+      color: white;
+   }
 }
 
 @media screen and (min-width: 768px) {
-  .nav {
-    &__burger {
-      display: none;
-    }
+   .nav {
+      &__burger {
+         display: none;
+      }
 
-    &__logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 1.2rem;
-    }
+      &__logo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: 1.2rem;
+      }
 
-    &__list {
-      font-size: 1.2rem;
+      &__list {
+         display: flex;
+         gap: 1.3rem;
 
-      display: flex;
-      gap: 1.3rem;
+         margin: 1.3rem;
 
-      margin: 1.3rem;
+         cursor: pointer;
+      }
 
-      cursor: pointer;
-    }
+      &__link {
+         color: white;
 
-    &__link {
-      text-decoration: none;
-      color: #eef0eb;
-    }
+         font-size: 1.5em;
 
-    &__link:hover {
-      color: #929292;
-    }
-  }
+         text-decoration: none;
+      }
+
+      &__link:hover {
+         color: rgb(206, 182, 182);
+      }
+   }
 }
