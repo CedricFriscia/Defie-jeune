@@ -18,7 +18,7 @@ const Landing = () => {
                pertinentes et approfondies aux représentants de l'entreprise.
             </p>
             <img
-               src='src/assets/images/undraw_Meeting_re_i53h.png'
+               src='https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meeting_re_i53h.svg'
                alt='ilustation meeting'
             />
          </section>
@@ -29,7 +29,7 @@ const Landing = () => {
                recruter.
             </h2>
             <img
-               src='src/assets/images/undraw_Interview_re_e5jn.png'
+               src='https://pbs.twimg.com/media/FGuRXB5XwAULo0V.jpg'
                alt='Campus sud des métier'
             />
          </section>
