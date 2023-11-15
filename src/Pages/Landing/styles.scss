@@ -1,59 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .landing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
-  text-align: center;
+   text-align: center;
 
-  p {
-    font-weight: 400;
-    font-size: 1.3rem;
-    margin: 1.1rem;
-  }
+   p {
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin: 1.1rem;
+   }
 
-  &__titles {
-    color: #284b63;
+   &__titles {
+      color: #284b63;
 
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 2rem;
 
-    margin: 1.5rem 1.1rem 1.8rem 1.1rem;
-  }
+      margin: 1.4rem;
 
-  &__présentation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      width: 80vw;
+   }
 
-    margin-bottom: 1.2rem;
-  }
+   &__présentation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-  &__événements {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      p {
+         width: 70vw;
+         font-size: 1.3em;
+      }
 
-    img {
-      width: 70%;
-      height: 70%;
       margin-bottom: 1.2rem;
-    }
-  }
+      img {
+         width: 70%;
+         height: 70%;
+         margin-bottom: 1.2rem;
+      }
+   }
 
-  &__campus {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   &__événements {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
+      img {
+         width: 70%;
+         height: 70%;
+         margin-bottom: 1.2rem;
+      }
+   }
+
+   &__campus {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+         width: 60vw;
+      }
+   }
+
+   &__sponsor {
+      margin-bottom: 2em;
+      .logo__container {
+         display: flex;
+         justify-content: center;
+         gap: 2em;
+
+         .logo {
+            width: 20vw;
+         }
+      }
+   }
+
+   footer {
+      border-top: 2px solid black;
+      width: 80vw;
+
+      section {
+         margin-top: 1em;
+      }
+   }
 }

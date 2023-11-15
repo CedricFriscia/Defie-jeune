@@ -1,5 +1,5 @@
-import React from "react";
 import Nav from "../../Components/Nav/Nav";
+import CopyrightIcon from "@mui/icons-material/Copyright";
 
 // Import CSS
 import "./styles.scss";
@@ -7,9 +7,12 @@ import "./styles.scss";
 const Landing = () => {
    return (
       <div className='landing'>
-         <Nav />
-         <section className='landing__présentation'>
+         <header>
             {" "}
+            <Nav />
+         </header>
+
+         <section className='landing__présentation'>
             <h2 className='landing__titles'>Des entretiens inversé !</h2>
             <p>
                Les candidats font passer un entretien aux entreprises. Au lieu
@@ -44,6 +47,35 @@ const Landing = () => {
                alt='Campus sud des métier'
             />
          </section>
+         <section className='landing__sponsor'>
+            <h2 className='landing__titles'>Avec la participation de :</h2>
+
+            <div className='logo__container'>
+               <img
+                  className='logo'
+                  src='https://upload.wikimedia.org/wikipedia/fr/c/c0/Logo_P%C3%B4le_Emploi_2008.svg'
+                  alt='Logo pole emploi'
+               />
+               <img
+                  className='logo'
+                  src='https://www.campussuddesmetiers.com/wp-content/uploads/2021/03/logo.png'
+                  alt='Logo campus sud métiers'
+               />
+               <img
+                  className='logo'
+                  src='https://www.actu-juridique.fr/app/uploads/2022/09/panorama-cuisine-mode-d-emploi-s-2f8b77c3771e4a14ac6f7603755490db.jpg'
+                  alt='Logo cuisine mode emploi'
+               />
+            </div>
+         </section>
+
+         <footer>
+            <section className='landing__footer'>
+               <CopyrightIcon sx={{ fontSize: 50 }} />
+               <p>2023 Copyright : Defie jeune-nice</p>
+               <p>Tous droits réservés</p>
+            </section>
+         </footer>
       </div>
    );
 };
