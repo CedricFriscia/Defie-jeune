@@ -15,7 +15,7 @@ const Jeune = () => {
             setCandidats(res.data);
          })
          .catch((err) => console.log("ERREUR", err));
-   }, []); // Pass an empty dependency array to execute the effect only once
+   }, []);
 
    const onChange = (event) => {
       setFinder(event.target.value);
