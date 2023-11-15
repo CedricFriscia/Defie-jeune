@@ -39,8 +39,9 @@ const Landing = () => {
 
          <section className='landing__campus'>
             <h2 className='landing__titles'>
-               Rendez-vous le 7 décembre au campus sud des métiers !
+               Rendez-vous le 7 décembre de 9h à 12h au campus sud des métiers !
             </h2>
+            <p>13 Av. Simone Veil, 06200 Nice </p>
 
             <img
                src='https://fyooyzbm.filerobot.com/v7/NIC10Q525_DM_INAUGURA+%2827844562%29-TfBUZuD2.jpg?vh=6c1c4b&ci_seal=b4a143fc05&w=1280&h=746&gravity=auto&func=crop'
