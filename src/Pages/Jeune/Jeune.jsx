@@ -1,9 +1,14 @@
 import { useEffect, useState } from "react";
-import api from "../../api/api";
-import Card from "../../Components/Card/Card";
-import Nav from "../../Components/Nav/Nav";
-import "./styles.scss";
 import { Link } from "react-router-dom";
+
+// API import
+import api from "../../api/api";
+
+// Components import
+import Card from "../../Components/Card/Card";
+
+// CSS import
+import "./styles.scss";
 
 const Jeune = () => {
    const [candidats, setCandidats] = useState([]);
@@ -23,8 +28,6 @@ const Jeune = () => {
 
    return (
       <div className='jeune'>
-         <Nav />
-
          <section className='jeune__search'>
             <div className='input-container'>
                <input

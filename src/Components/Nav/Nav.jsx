@@ -1,36 +1,67 @@
-// Import React
 import { Link } from "react-router-dom";
 
-// Import MUI
-import MenuIcon from "@mui/icons-material/Menu";
+// Icons import
+import { IconContext } from "react-icons";
+import { AiOutlineTeam } from "react-icons/ai";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { FaHome } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 
-// Import CSS
 import "./styles.scss";
-
-// Import Components
+import { useState } from "react";
 
 const Nav = () => {
+   const [iconsBurger, setIconsBurger] = useState(true);
+   const [navList, setNavList] = useState("navbar__list");
+
+   const handleClick = () => {
+      if (iconsBurger === true) {
+         setIconsBurger(false);
+         setNavList("navbar__list active");
+      } else {
+         setIconsBurger(true);
+         setNavList("navbar__list");
+      }
+   };
+
+   const handleExit = () => {
+      if (navList === "navbar__list") {
+         setNavList("navbar__list active");
+      } else {
+         setNavList("navbar__list");
+         setIconsBurger(true);
+      }
+   };
+
    return (
-      <div className='nav__container'>
-         <nav className='nav'>
-            <h1 className='nav__logo'>Défie Jeune - Nice</h1>
-
-            <div className='nav__burger'>
-               <Link className='nav__link--burger' to={"/nav-phone"}>
-                  <MenuIcon />
-               </Link>
+      <nav className='navbar'>
+         <h1 className='navbar__logo'>Defie jeune-nice</h1>
+         <IconContext.Provider value={{ color: "#fff" }}>
+            <div className='navbar__icons' onClick={handleClick}>
+               {iconsBurger ? <RxHamburgerMenu /> : <AiOutlineClose />}
             </div>
-
-            <div className='nav__list'>
-               <Link className='nav__link' to={"/"}>
-                  Présentation
-               </Link>
-               <Link className='nav__link' to={"/candidats"}>
-                  Les jeunes
-               </Link>
-            </div>
-         </nav>
-      </div>
+         </IconContext.Provider>
+         <div className={navList}>
+            <IconContext.Provider value={{ size: "1.3em" }}>
+               <div className='navbar__home'>
+                  <FaHome />
+                  <Link className='navbar__link' to={"/"} onClick={handleExit}>
+                     Accueil
+                  </Link>
+               </div>
+               <div className='navbar__candidat'>
+                  <AiOutlineTeam />
+                  <Link
+                     className='navbar__link'
+                     to={"/candidats"}
+                     onClick={handleExit}
+                  >
+                     Candidats
+                  </Link>
+               </div>
+            </IconContext.Provider>
+         </div>
+      </nav>
    );
 };
 

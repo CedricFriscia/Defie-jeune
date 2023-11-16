@@ -7,11 +7,6 @@ import "./styles.scss";
 const Landing = () => {
    return (
       <div className='landing'>
-         <header>
-            {" "}
-            <Nav />
-         </header>
-
          <section className='landing__présentation'>
             <h2 className='landing__titles'>Des entretiens inversé !</h2>
             <p>
