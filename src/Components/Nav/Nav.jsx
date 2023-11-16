@@ -35,7 +35,7 @@ const Nav = () => {
 
    return (
       <nav className='navbar'>
-         <h1 className='navbar__logo'>Defie jeune-nice</h1>
+         <h1 className='navbar__logo'>Défie jeune-nice</h1>
          <IconContext.Provider value={{ color: "#fff" }}>
             <div className='navbar__icons' onClick={handleClick}>
                {iconsBurger ? <RxHamburgerMenu /> : <AiOutlineClose />}
