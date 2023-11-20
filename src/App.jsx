@@ -13,16 +13,16 @@ import FormCandidat from "./Pages/FormCandidat/FormCandidat";
 import "./css/reset.css";
 
 function App() {
-   return (
-      <div className='App'>
-         <Nav />
-         <Routes>
-            <Route path='/' element={<Landing />}></Route>
-            <Route path='/candidats' element={<Jeune />}></Route>
-            <Route path='/candidat/create' element={<FormCandidat />}></Route>
-         </Routes>
-      </div>
-   );
+  return (
+    <div className="App">
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Landing />}></Route>
+        <Route path="/candidats" element={<Jeune />}></Route>
+        <Route path="/candidat/create" element={<FormCandidat />}></Route>
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
