@@ -22,12 +22,10 @@ const Jeune = () => {
       .get("src/data/candidats.json")
       .then((res) => {
         console.log("Réponse JSON :", res.data);
-        setCandidats(res.data.candidats); // Assurez-vous que la structure est correcte ici
+        setCandidats(res.data.candidats);
       })
       .catch((err) => console.log("ERREUR", err));
   }, []);
-
-  // ...
 
   const onChange = (event) => {
     setFinder(event.target.value);
