@@ -26,7 +26,7 @@ const Landing = () => {
           Des animations, un espace détente, et bien sûr des jeunes à recruter.
         </h2>
         <img
-          src="https://pbs.twimg.com/media/FGuRXB5XwAULo0V.jpg"
+          src="public\undraw_Interview_re_e5jn__1_-removebg-preview.png"
           alt="Campus sud des métier"
         />
       </section>
