@@ -65,11 +65,15 @@ export default function RecipeReviewCard({
         subheader={birthday}
       />
 
-      <CardContent>
-        <Typography variant="body2" color="text.secondary">
-          {search}
-        </Typography>
-      </CardContent>
+      <div className="card__content">
+        <h2 className="card__content--search">Poste recherché :</h2>
+        <CardContent>
+          <Typography variant="body2" color="text.secondary">
+            {search}
+          </Typography>
+        </CardContent>
+      </div>
+
       <CardActions disableSpacing>
         {linkedin === "" ? null : (
           <IconButton aria-label="Linkedin" onClick={handleLinkedInClick}>

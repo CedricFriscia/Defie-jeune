@@ -44,6 +44,15 @@
       "anniversaire": "04/06/2000",
       "linkedin": "http://linkedin.com/in/karissa-edoh-5bb096209",
       "description": "Sérieuse, dynamique et dotée d'un bon relationnel, je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
+    },
+    {
+      "id": 6,
+      "nom": "Ngaba",
+      "prenom": "Gerline",
+      "recherche": "Vendeuse / Préparatrice en restauration rapide",
+      "anniversaire": "10/09/1998",
+      "linkedin": "",
+      "description": "Apprends vite et prête a tout donner"
     }
   ]
 }
