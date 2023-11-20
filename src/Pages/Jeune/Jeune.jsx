@@ -19,7 +19,7 @@ const Jeune = () => {
 
   useEffect(() => {
     axios
-      .get("src/data/candidats.json")
+      .get("public/candidats.json")
       .then((res) => {
         console.log("Réponse JSON :", res.data);
         setCandidats(res.data.candidats);
