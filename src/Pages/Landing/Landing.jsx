@@ -39,7 +39,7 @@ const Landing = () => {
 
         <img
           src="https://fyooyzbm.filerobot.com/v7/NIC10Q525_DM_INAUGURA+%2827844562%29-TfBUZuD2.jpg?vh=6c1c4b&ci_seal=b4a143fc05&w=1280&h=746&gravity=auto&func=crop"
-          alt="Campus sud des métier"
+          alt="Illustration undraw interview"
         />
       </section>
       <section className="landing__sponsor">

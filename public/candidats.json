@@ -16,6 +16,7 @@
       "recherche": "Fabricant ou aide poseur menuisier PVC",
       "anniversaire": "03/02/2003",
       "linkedin": "",
+      "mail": "tombretron302@gmail.com",
       "description": "À la recherche d'un CDI ou d'un CDD pour approfondir mes connaissances et mes compétences."
     },
     {
@@ -34,6 +35,7 @@
       "recherche": "Vendeur / Serveur",
       "anniversaire": "16/08/2003",
       "linkedin": "",
+      "mail": "castrodasilvafrancisco516@gmail.com",
       "description": "Motivé, à la recherche d'un CDI ou d'un CDD pour acquérir de l'expérience en tant que vendeur ou serveur."
     },
     {
@@ -43,6 +45,7 @@
       "recherche": "Alternance en assurance et banque",
       "anniversaire": "04/06/2000",
       "linkedin": "http://linkedin.com/in/karissa-edoh-5bb096209",
+      "mail": "edoh.karissa@gmail.com",
       "description": "Sérieuse, dynamique et dotée d'un bon relationnel, je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
     },
     {
@@ -52,7 +55,48 @@
       "recherche": "Vendeuse / Préparatrice en restauration rapide",
       "anniversaire": "10/09/1998",
       "linkedin": "",
+      "mail": "n.gerline@gmail.com",
       "description": "Apprends vite et prête a tout donner"
+    },
+    {
+      "id": 7,
+      "nom": "Benmarraze",
+      "prenom": "Jihane",
+      "recherche": "Juriste",
+      "anniversaire": "09/01/1998",
+      "linkedin": "",
+      "mail": "jihanebenmarraze@gmail.com",
+      "description": "Juriste spécialisée en droit public, j'associe ma passion pour le secteur public à une solide expérience dans la réglementation et les litiges administratifs. Mon engragementà défendre l'intérêt public et ma capacité à naviguer dans les méandres du droit administratif font de moi un atout précieux pour votre équipe."
+    },
+    {
+      "id": 8,
+      "nom": "Semedo",
+      "prenom": "Cintia",
+      "recherche": "Accueille - CDI / CDD",
+      "anniversaire": "05/11/2000",
+      "linkedin": "",
+      "mail": "Cintiapatricia238@gmail.com",
+      "description": "Souriante, autonome, motivée et à l'écoute, en espérant que ma candidature retiendra votre attention. Vieullez recevori mes sincère salutations"
+    },
+    {
+      "id": 9,
+      "nom": "Roux",
+      "prenom": "Malypense",
+      "recherche": "Aide a domicile",
+      "anniversaire": "21/07/2004",
+      "linkedin": "https://www.linkedin.com/in/malypense-roux-268622299?utm_source=share&utm_-campaign=share_via&utm_-content=profile&utm_me-dium=ios_app",
+      "mail": "rouxmalypense@gmail.com",
+      "description": "Acutellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
+    },
+    {
+      "id": 10,
+      "nom": "MARTIN",
+      "prenom": "Antoine",
+      "recherche": "Essentiellement dans le sport - Emploi / Alternance / Etudes",
+      "anniversaire": "21/01/1999",
+      "linkedin": "http://linkedin.com/in/antoine-martin-673134298",
+      "mail": "",
+      "description": "Envie d'apprendre et d'acquérir de nouvelles compétences et enrichir mon expérience. Je suis motivé a n'importe quel emploi ( CDI/ CDD ), temps partiel."
     }
   ]
 }
