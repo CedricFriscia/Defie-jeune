@@ -7,6 +7,7 @@
       "recherche": "Alternance Développeur Web (bac +4)",
       "anniversaire": "14/11/1998",
       "linkedin": "https://www.linkedin.com/in/cedricfriscia/",
+      "mail": "cedricfriscia@gmail.com",
       "description": "Passionné par le développement web, je suis actuellement à la recherche d'une opportunité d'alternance en bac +4 pour poursuivre ma progression. Mon objectif est d'acquérir de nouvelles connaissances et compétences que je pourrai appliquer au sein d'une entreprise."
     },
     {
@@ -26,6 +27,7 @@
       "recherche": "Vendeuse prêt-à-porter",
       "anniversaire": "31/07/2003",
       "linkedin": "",
+      "mail": "",
       "description": "À la recherche d'un CDI ou d'un CDD pour obtenir des compétences dans le secteur de la vente et de la mode."
     },
     {
@@ -86,7 +88,7 @@
       "anniversaire": "21/07/2004",
       "linkedin": "https://www.linkedin.com/in/malypense-roux-268622299?utm_source=share&utm_-campaign=share_via&utm_-content=profile&utm_me-dium=ios_app",
       "mail": "rouxmalypense@gmail.com",
-      "description": "Acutellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
+      "description": "Actuellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
     },
     {
       "id": 10,
@@ -97,6 +99,16 @@
       "linkedin": "http://linkedin.com/in/antoine-martin-673134298",
       "mail": "",
       "description": "Envie d'apprendre et d'acquérir de nouvelles compétences et enrichir mon expérience. Je suis motivé a n'importe quel emploi ( CDI/ CDD ), temps partiel."
+    },
+    {
+      "id": 11,
+      "nom": "Fierens",
+      "prenom": "Alexis",
+      "recherche": "Stage - Assistant en ressources humaines - CDD ( 6 semaine ) ",
+      "anniversaire": "06/12/2005",
+      "linkedin": "https://www.linkedin.com/in/alexis-fierens?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "mail": "2000.alexisfierens@gmail.com",
+      "description": "Actuellement étudiant a l'IPAG Business School de Nice, je suis à la recherche d'un stage qui déroulera sur la période de Mai a Juin en tant qu'assitant des ressources humaine dans une entreprise."
     }
   ]
 }

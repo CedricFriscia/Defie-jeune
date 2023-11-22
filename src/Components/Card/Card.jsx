@@ -9,11 +9,11 @@ import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 import "./styles.scss";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const ExpandMore = styled((props) => {
@@ -27,16 +27,18 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function RecipeReviewCard({
+const RecipeReviewCard = ({
   firstname,
   lastname,
   birthday,
   search,
   linkedin,
   description,
-}) {
+  mail,
+}) => {
   const [expanded, setExpanded] = React.useState(false);
   const [link, setLink] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -44,6 +46,15 @@ export default function RecipeReviewCard({
 
   const handleLinkedInClick = () => {
     window.open(linkedin, "_blank");
+  };
+
+  const HandleMailClick = () => {
+    setOpen(true);
+    navigator.clipboard.writeText(mail);
+
+    setTimeout(() => {
+      setOpen(false);
+    }, 2000);
   };
 
   return (
@@ -55,11 +66,6 @@ export default function RecipeReviewCard({
               ? `${firstname.charAt(0)}${lastname.charAt(0)}`
               : ""}
           </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
         }
         title={firstname + " " + lastname}
         subheader={birthday}
@@ -80,6 +86,15 @@ export default function RecipeReviewCard({
             <LinkedInIcon />
           </IconButton>
         )}
+        {mail === "" ? null : (
+          <IconButton aria-label="mail" onClick={HandleMailClick}>
+            <MailOutlineIcon />
+          </IconButton>
+        )}
+
+        {open === true ? (
+          <p className="card__notification">Mail copié !</p>
+        ) : null}
 
         <ExpandMore
           expand={expanded}
@@ -94,9 +109,10 @@ export default function RecipeReviewCard({
         <CardContent>
           <Typography paragraph>Description :</Typography>
           <Typography paragraph>{description}</Typography>
-          <Typography paragraph>{linkedin}</Typography>
         </CardContent>
       </Collapse>
     </Card>
   );
-}
+};
+
+export default RecipeReviewCard;
