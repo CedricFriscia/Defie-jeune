@@ -10,6 +10,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
 
 import "./styles.scss";
 
@@ -35,6 +36,7 @@ const RecipeReviewCard = ({
   linkedin,
   description,
   mail,
+  cv,
 }) => {
   const [expanded, setExpanded] = React.useState(false);
   const [link, setLink] = React.useState(true);
@@ -96,6 +98,13 @@ const RecipeReviewCard = ({
           <p className="card__notification">Mail copié !</p>
         ) : null}
 
+        {cv === "" ? null : (
+          <a href={cv} download="CV-PDF" target="_blank" rel="noreferrer">
+            <IconButton aria-label="CV">
+              <AccountBoxIcon />
+            </IconButton>
+          </a>
+        )}
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

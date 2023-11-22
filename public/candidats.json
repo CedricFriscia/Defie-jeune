@@ -8,6 +8,7 @@
       "anniversaire": "14/11/1998",
       "linkedin": "https://www.linkedin.com/in/cedricfriscia/",
       "mail": "cedricfriscia@gmail.com",
+      "cv": "public/CV_ALTERNANCE_2023-10-30_CEDRIC_FRISCIA.pdf",
       "description": "Passionné par le développement web, je suis actuellement à la recherche d'une opportunité d'alternance en bac +4 pour poursuivre ma progression. Mon objectif est d'acquérir de nouvelles connaissances et compétences que je pourrai appliquer au sein d'une entreprise."
     },
     {
@@ -18,6 +19,7 @@
       "anniversaire": "03/02/2003",
       "linkedin": "",
       "mail": "tombretron302@gmail.com",
+      "cv": "",
       "description": "À la recherche d'un CDI ou d'un CDD pour approfondir mes connaissances et mes compétences."
     },
     {
@@ -28,6 +30,7 @@
       "anniversaire": "31/07/2003",
       "linkedin": "",
       "mail": "",
+      "cv": "",
       "description": "À la recherche d'un CDI ou d'un CDD pour obtenir des compétences dans le secteur de la vente et de la mode."
     },
     {
@@ -36,7 +39,8 @@
       "prenom": "Francisco",
       "recherche": "Vendeur / Serveur",
       "anniversaire": "16/08/2003",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/francisco-castro-da-silva-330732274/",
+      "cv": "public/CV Vendeur.pdf",
       "mail": "castrodasilvafrancisco516@gmail.com",
       "description": "Motivé, à la recherche d'un CDI ou d'un CDD pour acquérir de l'expérience en tant que vendeur ou serveur."
     },
@@ -48,6 +52,7 @@
       "anniversaire": "04/06/2000",
       "linkedin": "http://linkedin.com/in/karissa-edoh-5bb096209",
       "mail": "edoh.karissa@gmail.com",
+      "cv": "",
       "description": "Sérieuse, dynamique et dotée d'un bon relationnel, je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
     },
     {
@@ -58,6 +63,7 @@
       "anniversaire": "10/09/1998",
       "linkedin": "",
       "mail": "n.gerline@gmail.com",
+      "cv": "",
       "description": "Apprends vite et prête a tout donner"
     },
     {
@@ -68,6 +74,7 @@
       "anniversaire": "09/01/1998",
       "linkedin": "",
       "mail": "jihanebenmarraze@gmail.com",
+      "cv": "",
       "description": "Juriste spécialisée en droit public, j'associe ma passion pour le secteur public à une solide expérience dans la réglementation et les litiges administratifs. Mon engragementà défendre l'intérêt public et ma capacité à naviguer dans les méandres du droit administratif font de moi un atout précieux pour votre équipe."
     },
     {
@@ -78,6 +85,7 @@
       "anniversaire": "05/11/2000",
       "linkedin": "",
       "mail": "Cintiapatricia238@gmail.com",
+      "cv": "",
       "description": "Souriante, autonome, motivée et à l'écoute, en espérant que ma candidature retiendra votre attention. Vieullez recevori mes sincère salutations"
     },
     {
@@ -88,6 +96,7 @@
       "anniversaire": "21/07/2004",
       "linkedin": "https://www.linkedin.com/in/malypense-roux-268622299?utm_source=share&utm_-campaign=share_via&utm_-content=profile&utm_me-dium=ios_app",
       "mail": "rouxmalypense@gmail.com",
+      "cv": "",
       "description": "Actuellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
     },
     {
@@ -98,6 +107,7 @@
       "anniversaire": "21/01/1999",
       "linkedin": "http://linkedin.com/in/antoine-martin-673134298",
       "mail": "",
+      "cv": "",
       "description": "Envie d'apprendre et d'acquérir de nouvelles compétences et enrichir mon expérience. Je suis motivé a n'importe quel emploi ( CDI/ CDD ), temps partiel."
     },
     {
@@ -108,7 +118,19 @@
       "anniversaire": "06/12/2005",
       "linkedin": "https://www.linkedin.com/in/alexis-fierens?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "mail": "2000.alexisfierens@gmail.com",
+      "cv": "",
       "description": "Actuellement étudiant a l'IPAG Business School de Nice, je suis à la recherche d'un stage qui déroulera sur la période de Mai a Juin en tant qu'assitant des ressources humaine dans une entreprise."
+    },
+    {
+      "id": 12,
+      "nom": "Frechou",
+      "prenom": "Pierre",
+      "recherche": "Risk manager",
+      "anniversaire": "21/07/2001",
+      "linkedin": "",
+      "cv": "public/cv base.pdf",
+      "mail": "pierrefrechou4@gmail.com",
+      "description": "Je suis diplômé d'un BTS 'AGPME' (Assistant de Gestion de Petites et Moyennes Entreprises). J'ai travaillé en tant que facteur à La Poste pendant un an. Actuellement, je suis en reconversion afin de trouver ma voie. "
     }
   ]
 }

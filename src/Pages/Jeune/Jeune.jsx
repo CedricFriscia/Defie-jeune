@@ -75,6 +75,7 @@ const Jeune = () => {
               search={candidat.recherche}
               linkedin={candidat.linkedin}
               mail={candidat.mail}
+              cv={candidat.cv}
               description={candidat.description}
             />
           ))}
