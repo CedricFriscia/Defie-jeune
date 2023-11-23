@@ -105,6 +105,7 @@ const RecipeReviewCard = ({
             target="_blank"
             rel="noreferrer"
             type="application/pdf"
+            media="print"
           >
             <IconButton aria-label="CV">
               <AccountBoxIcon />
