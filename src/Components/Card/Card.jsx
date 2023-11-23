@@ -104,6 +104,7 @@ const RecipeReviewCard = ({
             download={"CV-" + firstname + "-" + lastname + "-PDF"}
             target="_blank"
             rel="noreferrer"
+            type="application/pdf"
           >
             <IconButton aria-label="CV">
               <AccountBoxIcon />
