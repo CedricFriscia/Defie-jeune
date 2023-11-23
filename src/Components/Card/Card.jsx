@@ -99,7 +99,12 @@ const RecipeReviewCard = ({
         ) : null}
 
         {cv === "" ? null : (
-          <a href={cv} download="CV-PDF" target="_blank" rel="noreferrer">
+          <a
+            href={cv}
+            download={"CV-" + firstname + "-" + lastname + "-PDF"}
+            target="_blank"
+            rel="noreferrer"
+          >
             <IconButton aria-label="CV">
               <AccountBoxIcon />
             </IconButton>
