@@ -101,11 +101,10 @@ const RecipeReviewCard = ({
         {cv === "" ? null : (
           <a
             href={cv}
-            download={"CV-" + firstname + "-" + lastname + "-PDF"}
+            download={"CV-" + firstname + "-" + lastname + ""}
             target="_blank"
             rel="noreferrer"
             type="application/pdf"
-            media="print"
           >
             <IconButton aria-label="CV">
               <AccountBoxIcon />

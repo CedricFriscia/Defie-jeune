@@ -8,13 +8,15 @@ const Landing = () => {
   return (
     <div className="landing">
       <section className="landing__présentation">
-        <h2 className="landing__titles">Des entretiens inversé !</h2>
+        <h2 className="landing__titles">Des entretiens inversés !</h2>
+
         <p>
-          Les candidats font passer un entretien aux entreprises. Au lieu de se
-          contenter de répondre aux questions des recruteurs, les candidats
-          prennent l'initiative de poser des questions pertinentes et
-          approfondies aux représentants de l'entreprise.
+          Les jeunes prennent leur avenir en main ! Ils n'attendent plus l'appel
+          d'un employeur mais se créent eux-mêmes leurs propres opportunités à
+          hauteur de leurs ambitions. Ils invitent les employeurs à les
+          rencontrer et adoptent une posture de recruteur.
         </p>
+
         <img
           src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meeting_re_i53h.svg"
           alt="ilustation meeting"
@@ -33,7 +35,7 @@ const Landing = () => {
 
       <section className="landing__campus">
         <h2 className="landing__titles">
-          Rendez-vous le 7 décembre de 9h à 12h au campus sud des métiers !
+          Rendez-vous le 7 décembre de 9h à 12h au Campus Sud des Métiers !
         </h2>
         <p>13 Av. Simone Veil, 06200 Nice </p>
 
@@ -67,7 +69,7 @@ const Landing = () => {
       <footer>
         <section className="landing__footer">
           <CopyrightIcon sx={{ fontSize: 50 }} />
-          <p>2023 Copyright : Defie jeune-nice</p>
+          <p>2023 Copyright : Defi'JeuneS - Nice Nord</p>
           <p>Tous droits réservés</p>
         </section>
       </footer>
