@@ -9,6 +9,7 @@
       "linkedin": "https://www.linkedin.com/in/cedricfriscia/",
       "mail": "cedricfriscia@gmail.com",
       "cv": "public/CV_ALTERNANCE_2023-10-30_CEDRIC_FRISCIA.pdf",
+      "motivationnel": "",
       "description": "Passionné par le développement web, je suis actuellement à la recherche d'une opportunité d'alternance en bac +4 pour poursuivre ma progression. Mon objectif est d'acquérir de nouvelles connaissances et compétences que je pourrai appliquer au sein d'une entreprise."
     },
     {
@@ -20,7 +21,8 @@
       "linkedin": "",
       "mail": "tombretron302@gmail.com",
       "cv": "",
-      "description": "À la recherche d'un CDI ou d'un CDD pour approfondir mes connaissances et mes compétences."
+      "motivationnel": "",
+      "description": "Doté d'un bac pro de menuisier aluminium - PVC, j'y ai appris l'usinage et le montage de fenêtres en PVC. Minutieux, avec une bonne capacité d'analyse, je me nourris de mes apprentissages et suis à même de travailler en équipe. Passionné par les sports extrêmes ( trotinette freestyle, skate et BMX ), je pratique la trotinette freestyle depuis 4 ans. Je recherche un contrat en CDD / CDI"
     },
     {
       "id": 3,
@@ -31,18 +33,20 @@
       "linkedin": "",
       "mail": "",
       "cv": "",
-      "description": "À la recherche d'un CDI ou d'un CDD pour obtenir des compétences dans le secteur de la vente et de la mode."
+      "motivationnel": "",
+      "description": "Titulaire d'un bac pro mode et de deux années d'études dans le design, j'aime particulièrement le stylisme (prise de mesures, dessin et couture). J'aime le travail en équipe et je sais gérer la pression. Passionnée par la mode, je ne rate pas une seule fashion week et je reste en veille sur cet univers. Je parle couramment l'espagnol, le sicilien et l'anglais. Je recherche un CDD/CDI."
     },
     {
       "id": 4,
       "nom": "Castro Da Silva",
       "prenom": "Francisco",
-      "recherche": "Vendeur / Serveur",
+      "recherche": "Vendeur",
       "anniversaire": "16/08/2003",
       "linkedin": "https://www.linkedin.com/in/francisco-castro-da-silva-330732274/",
       "cv": "public/CV Vendeur.pdf",
       "mail": "castrodasilvafrancisco516@gmail.com",
-      "description": "Motivé, à la recherche d'un CDI ou d'un CDD pour acquérir de l'expérience en tant que vendeur ou serveur."
+      "motivationnel": "",
+      "description": "Titulaire d'un bac général (option HGGSP et SES). J'ai 20ans et je recherche un CDI/CDD à temps complet en tant que vendeur. Je sais gérer mon stress et je fais preuve d'introsprection face aux clients; notamment grâce à mes différentes expériences en tant que serveur. Je suis sportif et je pratique le basketball en compétition depuis 4 ans. Ce sport collectif me permet d'évoluer et de travailler en équipe. Je peux devenir un membre pivot d'une équipe. "
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "linkedin": "http://linkedin.com/in/karissa-edoh-5bb096209",
       "mail": "edoh.karissa@gmail.com",
       "cv": "public/CV_Apprentissage_EDOH_KARISSA.pdf",
-      "description": "Sérieuse, dynamique et dotée d'un bon relationnel, je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
+      "motivationnel": "",
+      "description": "Rigoureuse, dynamique et dotée d'un bon relationnel, j'aime relever les défis. Je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "linkedin": "",
       "mail": "n.gerline@gmail.com",
       "cv": "public/-Cv employé polyvalent.pdf",
-      "description": "Apprends vite et prête a tout donner"
+      "motivationnel": "",
+      "description": "Suite à mon expérience dans la vente, j'ai réussi a développer mon sens de la communication. Mon bon relationnel me permet de travailler en équipe et de résoudre différentes situations professionnelles. Je saurai tranquillement mais avec réactivité m'intégrer à vos équipes. J'aime l'écriture, j'écris régulierement des nouvelles et des romans. "
     },
     {
       "id": 7,
@@ -75,6 +81,7 @@
       "linkedin": "",
       "mail": "jihanebenmarraze@gmail.com",
       "cv": "",
+      "motivationnel": "",
       "description": "Juriste spécialisée en droit public, j'associe ma passion pour le secteur public à une solide expérience dans la réglementation et les litiges administratifs. Mon engragementà défendre l'intérêt public et ma capacité à naviguer dans les méandres du droit administratif font de moi un atout précieux pour votre équipe."
     },
     {
@@ -86,6 +93,7 @@
       "linkedin": "",
       "mail": "Cintiapatricia238@gmail.com",
       "cv": "",
+      "motivationnel": "",
       "description": "Souriante, autonome, motivée et à l'écoute, en espérant que ma candidature retiendra votre attention. Vieullez recevori mes sincère salutations"
     },
     {
@@ -97,6 +105,7 @@
       "linkedin": "https://www.linkedin.com/in/malypense-roux-268622299?utm_source=share&utm_-campaign=share_via&utm_-content=profile&utm_me-dium=ios_app",
       "mail": "rouxmalypense@gmail.com",
       "cv": "",
+      "motivationnel": "",
       "description": "Actuellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
     },
     {
@@ -108,6 +117,7 @@
       "linkedin": "http://linkedin.com/in/antoine-martin-673134298",
       "mail": "",
       "cv": "",
+      "motivationnel": "",
       "description": "Envie d'apprendre et d'acquérir de nouvelles compétences et enrichir mon expérience. Je suis motivé a n'importe quel emploi ( CDI/ CDD ), temps partiel."
     },
     {
@@ -119,6 +129,7 @@
       "linkedin": "https://www.linkedin.com/in/alexis-fierens?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "mail": "2000.alexisfierens@gmail.com",
       "cv": "",
+      "motivationnel": "",
       "description": "Actuellement étudiant a l'IPAG Business School de Nice, je suis à la recherche d'un stage qui déroulera sur la période de Mai a Juin en tant qu'assitant des ressources humaine dans une entreprise."
     },
     {
@@ -128,9 +139,10 @@
       "recherche": "Responsable environnement et sécurité",
       "anniversaire": "21/07/2001",
       "linkedin": "",
+      "motivationnel": "",
       "cv": "public/cv base.pdf",
       "mail": "pierrefrechou4@gmail.com",
-      "description": "Je suis diplômé d'un BTS 'AGPME' (Assistant de Gestion de Petites et Moyennes Entreprises). J'ai travaillé en tant que facteur à La Poste pendant un an. Actuellement, je suis en reconversion afin de trouver ma voie. "
+      "description": "Diplômé d'un BTS 'AGPME' (Assistant de Gestion de Petites et Moyennes Entreprises) et d'un bac pro maroquinerie, je me réoriente vers la prévention et la sécurité au travail. Mon année d'expérience comme facteur pour La Poste m'a permis de développer des qualités telles que la ponctualité, le sens de l'organisation, la débrouillardise et une très bonne mémoire.   "
     }
   ]
 }
