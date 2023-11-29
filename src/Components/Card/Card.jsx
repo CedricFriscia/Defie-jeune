@@ -56,7 +56,11 @@ const RecipeReviewCard = ({
   };
 
   const handleDownloadCV = () => {
-    window.open(cv, "_blank");
+    if (cv) {
+      window.open(cv, "_blank");
+    } else {
+      console.error("Le chemin du CV est vide.");
+    }
   };
 
   return (
