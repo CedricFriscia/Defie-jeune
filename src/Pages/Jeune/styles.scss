@@ -74,51 +74,9 @@
 }
 
 .input {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
+  padding: 1em;
+  border-radius: 4px;
   outline: none;
-  padding: 18px 16px;
-  background-color: transparent;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.input::placeholder {
-  color: transparent;
-}
-
-.input:focus::placeholder {
-  color: rgb(131, 128, 128);
-}
-
-.input:focus,
-.input:not(:placeholder-shown) {
-  background-color: #fff;
-  border: 1px solid rgb(91, 107, 255);
-  width: 290px;
-  cursor: none;
-  padding: 18px 16px 18px 45px;
-}
-
-.icon {
-  position: absolute;
-  left: 0;
-  height: 45px;
-  width: 45px;
-  background-color: #fff;
-  border-radius: 99px;
-  z-index: -1;
-  fill: rgb(91, 107, 255);
-  border: 1px solid rgb(91, 107, 255);
-}
-
-.input:focus + .icon,
-.input:not(:placeholder-shown) + .icon {
-  z-index: 0;
-  background-color: transparent;
-  border: none;
 }
 
 @media only screen and (max-width: 768px) {
