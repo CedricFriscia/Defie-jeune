@@ -25,21 +25,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-const downloadCV = (cvPath, firstname, lastname) => {
-  fetch(cvPath)
-    .then((response) => response.blob())
-    .then((blob) => {
-      const url = window.URL.createObjectURL(new Blob([blob]));
-      const link = document.createElement("a");
-      link.href = url;
-      link.setAttribute("download", `CV-${firstname}-${lastname}.pdf`);
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    })
-    .catch((error) => console.error("Error downloading CV:", error));
-};
-
 const RecipeReviewCard = ({
   firstname,
   lastname,
@@ -71,7 +56,7 @@ const RecipeReviewCard = ({
   };
 
   const handleDownloadCV = () => {
-    downloadCV(cv, firstname, lastname);
+    window.open(cv, "_blank");
   };
 
   return (
