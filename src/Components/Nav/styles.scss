@@ -67,6 +67,10 @@
   .navbar {
     z-index: 99;
 
+    &__logo {
+      font-size: 1.2em;
+    }
+
     &__list {
       display: flex;
       flex-direction: column;
