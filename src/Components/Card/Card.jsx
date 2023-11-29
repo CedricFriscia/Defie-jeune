@@ -14,6 +14,8 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
+import "./styles.scss";
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
