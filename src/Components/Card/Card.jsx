@@ -13,6 +13,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import DescriptionIcon from "@mui/icons-material/Description";
 
 import "./styles.scss";
 
@@ -36,6 +37,7 @@ const RecipeReviewCard = ({
   description,
   mail,
   cv,
+  motivationnel,
 }) => {
   const [expanded, setExpanded] = React.useState(false);
   const [open, setOpen] = React.useState(false);
@@ -60,6 +62,14 @@ const RecipeReviewCard = ({
   const handleDownloadCV = () => {
     if (cv) {
       window.open(cv, "_blank");
+    } else {
+      console.error("Le chemin du CV est vide.");
+    }
+  };
+
+  const handleDownloadCVM = () => {
+    if (motivationnel) {
+      window.open(motivationnel, "_blank");
     } else {
       console.error("Le chemin du CV est vide.");
     }
@@ -90,9 +100,30 @@ const RecipeReviewCard = ({
 
       <CardActions disableSpacing>
         {linkedin === "" ? null : (
-          <IconButton aria-label="Linkedin" onClick={handleLinkedInClick}>
+          <IconButton
+            aria-label="Linkedin"
+            onClick={handleLinkedInClick}
+            color="primary"
+            fontSize="small"
+          >
             <LinkedInIcon />
           </IconButton>
+        )}
+
+        {cv === "" ? null : (
+          <IconButton aria-label="CV" onClick={handleDownloadCV}>
+            <AccountBoxIcon />
+          </IconButton>
+        )}
+
+        {motivationnel === "" ? null : (
+          <DescriptionIcon
+            aria-label="CVM"
+            onClick={handleDownloadCVM}
+            color="action"
+          >
+            <AccountBoxIcon />
+          </DescriptionIcon>
         )}
         {mail === "" ? null : (
           <IconButton aria-label="mail" onClick={handleMailClick}>
@@ -103,12 +134,6 @@ const RecipeReviewCard = ({
         {open === true ? (
           <p className="card__notification">Mail copié !</p>
         ) : null}
-
-        {cv === "" ? null : (
-          <IconButton aria-label="CV" onClick={handleDownloadCV}>
-            <AccountBoxIcon />
-          </IconButton>
-        )}
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
