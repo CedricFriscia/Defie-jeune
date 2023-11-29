@@ -11,9 +11,6 @@ import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
-
-import "./styles.scss";
-
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
@@ -28,6 +25,21 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
+const downloadCV = (cvPath, firstname, lastname) => {
+  fetch(cvPath)
+    .then((response) => response.blob())
+    .then((blob) => {
+      const url = window.URL.createObjectURL(new Blob([blob]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", `CV-${firstname}-${lastname}.pdf`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    })
+    .catch((error) => console.error("Error downloading CV:", error));
+};
+
 const RecipeReviewCard = ({
   firstname,
   lastname,
@@ -39,7 +51,6 @@ const RecipeReviewCard = ({
   cv,
 }) => {
   const [expanded, setExpanded] = React.useState(false);
-  const [link, setLink] = React.useState(true);
   const [open, setOpen] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -50,13 +61,17 @@ const RecipeReviewCard = ({
     window.open(linkedin, "_blank");
   };
 
-  const HandleMailClick = () => {
+  const handleMailClick = () => {
     setOpen(true);
     navigator.clipboard.writeText(mail);
 
     setTimeout(() => {
       setOpen(false);
     }, 2000);
+  };
+
+  const handleDownloadCV = () => {
+    downloadCV(cv, firstname, lastname);
   };
 
   return (
@@ -89,7 +104,7 @@ const RecipeReviewCard = ({
           </IconButton>
         )}
         {mail === "" ? null : (
-          <IconButton aria-label="mail" onClick={HandleMailClick}>
+          <IconButton aria-label="mail" onClick={handleMailClick}>
             <MailOutlineIcon />
           </IconButton>
         )}
@@ -99,17 +114,9 @@ const RecipeReviewCard = ({
         ) : null}
 
         {cv === "" ? null : (
-          <a
-            href={cv}
-            download={"CV-" + firstname + "-" + lastname + ""}
-            target="_blank"
-            rel="noreferrer"
-            type="application/pdf"
-          >
-            <IconButton aria-label="CV">
-              <AccountBoxIcon />
-            </IconButton>
-          </a>
+          <IconButton aria-label="CV" onClick={handleDownloadCV}>
+            <AccountBoxIcon />
+          </IconButton>
         )}
         <ExpandMore
           expand={expanded}
