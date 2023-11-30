@@ -56,7 +56,7 @@
       "anniversaire": "04/06/2000",
       "linkedin": "http://www.linkedin.com/in/karissa-edoh",
       "mail": "edoh.karissa@gmail.com",
-      "cv": "/pdf/CV_Apprentissage_EDOH_KARISSA.pdf",
+      "cv": "/pdf/CV_edoh.pdf",
       "motivationnel": "/motiv/cv-edoh06100-655108f9.pdf",
       "description": "Rigoureuse, dynamique et dotée d'un bon relationnel, j'aime relever les défis. Je souhaite mettre toutes mes connaissances, mes ressources, mais surtout mon expérience dans le secteur de l'assurance et de la banque."
     },
@@ -97,30 +97,6 @@
       "description": "Souriante, autonome, motivée et à l'écoute, j'espère que ma candidature retiendra votre attention. Veuillez recevoir mes sincères salutations."
     },
     {
-      "id": 9,
-      "nom": "Roux",
-      "prenom": "Malypense",
-      "recherche": "Aide a domicile",
-      "anniversaire": "21/07/2004",
-      "linkedin": "https://www.linkedin.com/in/malypense-roux-268622299?utm_source=share&utm_-campaign=share_via&utm_-content=profile&utm_me-dium=ios_app",
-      "mail": "rouxmalypense@gmail.com",
-      "cv": "",
-      "motivationnel": "",
-      "description": "Actuellement à la recherche d'un CDI/CDD en tant qu'aide à domicile, j'aime être en contact avec kes personne et me sentir utile."
-    },
-    {
-      "id": 10,
-      "nom": "MARTIN",
-      "prenom": "Antoine",
-      "recherche": "Essentiellement dans le sport - Emploi / Alternance / Etudes",
-      "anniversaire": "21/01/1999",
-      "linkedin": "http://linkedin.com/in/antoine-martin-673134298",
-      "mail": "",
-      "cv": "",
-      "motivationnel": "",
-      "description": "Envie d'apprendre et d'acquérir de nouvelles compétences et enrichir mon expérience. Je suis motivé a n'importe quel emploi ( CDI/ CDD ), temps partiel."
-    },
-    {
       "id": 11,
       "nom": "Fierens",
       "prenom": "Alexis",
@@ -128,7 +104,7 @@
       "anniversaire": "06/12/2005",
       "linkedin": "https://www.linkedin.com/in/alexis-fierens?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "mail": "2000.alexisfierens@gmail.com",
-      "cv": "",
+      "cv": "/pdf/CV Stage BTS GPME FIERENS Alexis.pdf",
       "motivationnel": "/motiv/alexis-cvm.pdf",
       "description": "Actuellement étudiant a l'IPAG Business School de Nice, je suis à la recherche d'un stage qui déroulera sur la période de Mai a Juin en tant qu'assitant des ressources humaine dans une entreprise."
     },
