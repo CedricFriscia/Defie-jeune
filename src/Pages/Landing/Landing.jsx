@@ -1,6 +1,6 @@
 import Nav from "../../Components/Nav/Nav";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-
+import EmblaCarousel from "../../Components/Carousel/Carousel";
 // Import CSS
 import "./styles.scss";
 
@@ -43,6 +43,15 @@ const Landing = () => {
           src="https://fyooyzbm.filerobot.com/v7/NIC10Q525_DM_INAUGURA+%2827844562%29-TfBUZuD2.jpg?vh=6c1c4b&ci_seal=b4a143fc05&w=1280&h=746&gravity=auto&func=crop"
           alt="Illustration undraw interview"
         />
+      </section>
+
+      <section className="landing__carousel">
+        <h2 className="landing__titles">Photos de l'événement !</h2>
+        <p className="landing__text">
+          Faites défiler les photos avec un swipe vers la gauche.
+        </p>
+
+        <EmblaCarousel />
       </section>
       <section className="landing__sponsor">
         <h2 className="landing__titles">Avec la participation de :</h2>

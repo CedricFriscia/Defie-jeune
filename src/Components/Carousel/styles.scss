@@ -1,0 +1,29 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  width: fit-content;
+}
+
+.embla__slide img {
+  width: 80%;
+}
+
+.embla__slide .portrait {
+  width: 37%;
+}
+
+@media screen and (max-width: 728px) {
+  .embla__slide img {
+    width: 100%;
+  }
+
+  .embla__slide .portrait {
+    width: 87%;
+  }
+}
