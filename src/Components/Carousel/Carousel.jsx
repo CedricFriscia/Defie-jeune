@@ -20,7 +20,7 @@ const EmblaCarousel = () => {
         <div className="embla__slide">
           <img
             className="portrait"
-            src="public/carousel/PHOTO-2023-12-11-15-14-01.jpg"
+            src="carousel/PHOTO-2023-12-11-15-14-01.jpg"
             alt=""
           />
         </div>
