@@ -14,7 +14,7 @@ const EmblaCarousel = () => {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide ">
+        <div className="embla__slide premiere">
           <img src="carousel/PHOTO-2023-12-11-15-11-34.jpg" alt="" />
         </div>
         <div className="embla__slide">
@@ -55,9 +55,6 @@ const EmblaCarousel = () => {
           <img src="carousel/PHOTO-2023-12-11-15-05-52.jpg" alt="" />
         </div>
 
-        <div className="embla__slide">
-          <img src="carousel/dej.jpg" alt="" />
-        </div>
         <div className="embla__slide">
           <img className="portrait" src="carousel/defipic.jpg" alt="" />
         </div>
